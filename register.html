@@ -1,0 +1,46 @@
+<!--
+Milestone 2 - Version 1.0 - Payson Parker - 1/30/2021 - register.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	
+	form{
+		border-style: outset;
+		border-width: thick;
+		border-color: #7996FF;
+		text-shadow: 1px 1px 1px #EEE;
+		background-color:#DAE2FF;
+		box-shadow: 10px 10px #D5DEFF;
+		width:600px;
+		padding:25px;
+	}
+	*{
+		font-size: 25px;
+		font-family:Tahoma;
+	}
+</style>
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+</head>
+<body>
+	<form action="pageHandler.php" method="POST">
+		<br>To sign up for an account, enter your first and last name.<br>
+		First Name<br>
+		<input name="FirstName" type="text"/><br>
+		Last Name<br>
+		<input name="LastName" type="text"/><br>
+		<br>
+		Enter your username and password below.<br>
+		<br>
+		Enter your username<br>
+		<input name="username" type="text"/><br>
+		Enter your password<br>
+		<input name="password" type="text"/><br>
+		Click here to submit registration<br>
+		<input name="Submit" type="submit"/><br>
+	</form>
+</body>
+
+</html>
